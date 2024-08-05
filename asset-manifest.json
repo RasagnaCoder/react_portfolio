@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.5bbe37b1.css",
-    "main.js": "/static/js/main.a4089e09.js",
-    "static/media/providence_resume.png": "/static/media/providence_resume.1b5b343cfd0d4981e879.png",
-    "static/media/mypic.jpg": "/static/media/mypic.bb2cc724298787fa31bb.jpg",
-    "static/media/disha_pic_1.jpg": "/static/media/disha_pic_1.ca682533118e6cdf138b.jpg",
-    "static/media/disha_group_pic.jpg": "/static/media/disha_group_pic.29c61c0bc81523a7935b.jpg",
-    "index.html": "/index.html",
-    "main.5bbe37b1.css.map": "/static/css/main.5bbe37b1.css.map",
-    "main.a4089e09.js.map": "/static/js/main.a4089e09.js.map"
+    "main.css": "/RasagnaCoder/MyPortfolio_React/static/css/main.5bbe37b1.css",
+    "main.js": "/RasagnaCoder/MyPortfolio_React/static/js/main.dfb5d179.js",
+    "static/media/providence_resume.png": "/RasagnaCoder/MyPortfolio_React/static/media/providence_resume.1b5b343cfd0d4981e879.png",
+    "static/media/mypic.jpg": "/RasagnaCoder/MyPortfolio_React/static/media/mypic.bb2cc724298787fa31bb.jpg",
+    "static/media/disha_pic_1.jpg": "/RasagnaCoder/MyPortfolio_React/static/media/disha_pic_1.ca682533118e6cdf138b.jpg",
+    "static/media/disha_group_pic.jpg": "/RasagnaCoder/MyPortfolio_React/static/media/disha_group_pic.29c61c0bc81523a7935b.jpg",
+    "index.html": "/RasagnaCoder/MyPortfolio_React/index.html",
+    "main.5bbe37b1.css.map": "/RasagnaCoder/MyPortfolio_React/static/css/main.5bbe37b1.css.map",
+    "main.dfb5d179.js.map": "/RasagnaCoder/MyPortfolio_React/static/js/main.dfb5d179.js.map"
   },
   "entrypoints": [
     "static/css/main.5bbe37b1.css",
-    "static/js/main.a4089e09.js"
+    "static/js/main.dfb5d179.js"
   ]
 }
