@@ -1,3 +1,124 @@
-.bio{
-    background-color:rgba(250, 235, 215, 0.606);
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* About Me Container */
+.about-me-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f7c6c7, #ffedbb);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Header */
+.about-me-header {
+    text-align: center;
+    margin-bottom: 30px;
+    background: #ff4081;
+    color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    animation: bounceIn 1s;
+}
+
+.about-me-header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Content Sections */
+.about-me-content {
+    padding: 20px;
+}
+
+.about-me-content section {
+    margin-bottom: 30px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.about-me-content section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.about-me-content h2 {
+    font-size: 2.2em;
+    margin-bottom: 15px;
+    color: #333;
+    position: relative;
+}
+
+.about-me-content p {
+    line-height: 1.8;
+    color: #666;
+}
+
+.about-me-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-me-content ul li {
+    background: #e0f7fa;
+    border: 1px solid #b2ebf2;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: #00796b;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.about-me-content ul li:hover {
+    background: #b2ebf2;
+    color: #004d40;
+}
+
+/* Animations */
+@keyframes bounceIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-20px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+.slide-in {
+    animation: slideIn 1s ease-out;
+}
+
+/* Extra Section */
+.extra-section {
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+    background: #fff3e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }

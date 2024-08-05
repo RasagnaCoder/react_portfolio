@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+  }
+  
+  main {
+    flex: 1;
+    padding: 2em;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-me {
+    background: #fff;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-me h2 {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+  .bio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+  }
+  
+  .bio-section {
+    background: #f9f9f9;
+    padding: 1em;
+    border-radius: 8px;
+  }
+  
+  .bio-section h3 {
+    margin-top: 0;
+  }
+  
+  .bio-section p {
+    margin: 0.5em 0;
+  }
+  
+  .bio-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bio-section ul li {
+    margin: 0.5em 0;
+  }
+  

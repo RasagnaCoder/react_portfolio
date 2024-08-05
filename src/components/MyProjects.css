@@ -1,3 +1,63 @@
-.projects{
-    height: 28rem;
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #000428 0%, #004e92 100%); /* Dark blue gradient background */
+    min-height: 100vh;
+}
+
+.project-card {
+    background: #1c1c1c; /* Dark card background */
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    flex: 1 1 calc(50% - 40px); /* Responsive flex basis */
+    box-sizing: border-box;
+}
+
+.project-card h3 {
+    color: #f0a500; /* Gold color for headers */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #ccc; /* Light gray for text */
+    font-size: 1em;
+}
+
+.project-card a {
+    color: #1e90ff; /* Dodger blue for links */
+    text-decoration: none;
+}
+
+.project-card button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #1e90ff; /* Dodger blue for buttons */
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.project-card button:hover {
+    background-color: #104e8b; /* Darker blue on hover */
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .project-card {
+        flex: 1 1 calc(100% - 40px);
+    }
 }

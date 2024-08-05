@@ -1,8 +1,50 @@
-.home{
-    
-    height: 29rem;
-    background-color: rgb(103, 238, 238);
-    
-    
-    
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, rgba(103, 238, 238, 0.8), rgba(0, 153, 255, 0.8)); /* Gradient background */
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px; /* Padding */
+}
+
+.profile-picture {
+    margin-top: 20px; /* Space between Info and picture */
+}
+
+.profile-picture img {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Keeps aspect ratio while covering container */
+}
+
+.typewriter-container {
+    margin-top: 20px; /* Space between picture and typewriter text */
+}
+
+.typewriter {
+    font-size: 1.8rem; /* Adjust font size as needed */
+    font-family: 'Courier New', Courier, monospace; /* Typewriter font */
+    font-weight: bold; /* Make text bold */
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Hides overflow */
+    border-right: 3px solid; /* Typewriter cursor effect */
+    color: #333; /* Text color */
+    background: rgba(255, 255, 255, 0.3); /* Slight background color for readability */
+    padding: 10px; /* Padding for text */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for text */
+    animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #333; }
 }

@@ -1,0 +1,46 @@
+/* Header.css */
+.navbar {
+    padding: 0 15px; /* Optional: Adjust padding as needed */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    flex-grow: 1; /* Allow the navbar-nav to grow and take available space */
+}
+
+.nav-item {
+    margin: 0 10px; /* Adjust margin to control spacing between items */
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+}
+
+.navbar-toggler {
+    margin-left: auto; /* Ensure toggler aligns to the right */
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+    .navbar-nav {
+        justify-content: center; /* Center nav items on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column; /* Stack nav items vertically on smaller screens */
+        align-items: center; /* Center items */
+    }
+
+    .nav-item {
+        margin: 10px 0; /* Vertical spacing for stacked items */
+    }
+
+    .navbar-toggler {
+        margin-left: 0; /* Remove left margin on smaller screens */
+    }
+}
